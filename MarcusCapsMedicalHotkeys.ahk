@@ -417,3 +417,5 @@ MedicalAutoCorrect
 GeneralScripts
 )
 
+git add .
+    
