@@ -159,9 +159,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::<tel>::<telephone consultation>
 ::<f2f>::<face-to-face consultation>
 ::<ftel>::<failed telephone consultation>
+::<recep>::GP Reception: no injuries, no allergies, no major medical problems, no current medications.
 ::msg left::short generic message left on voice mail
 ::no msg::unable to leave message - no voice mail
-
 ;
 ;
 ;-----------------------------------------------------------------------------------------------------------
