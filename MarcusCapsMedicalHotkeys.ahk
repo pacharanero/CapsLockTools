@@ -59,21 +59,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;
 ;
 ;
-;----------------------------------------------------------------------------------------------------------
-;   MARCUS PERSONAL DETAILS AUTO-EXPAND
-;-----------------------------------------------------------------------------------------------------------
-::@post::Rhyl Fold Farm, Manchester Road, Leigh, Lancashire, WN7 2NX     ;postal address
-::@mob::07747600617					;mobile
-::@email::marcusbaw@gmail.com		;gmail
-::@nhs::marcus.baw@nhs.net			;nhsmail
-::@sig::
-(
-Marcus Baw
-07747600617
-marcusbaw@gmail.com
-marcus.baw@nhs.net
-)
-;
 ;-----------------------------------------------------------------------------------------------------------
 ;      MEDICAL AUTOCORRECT - MIS-SPELLINGS
 ;-----------------------------------------------------------------------------------------------------------
