@@ -401,6 +401,4 @@ CapsLockTools
 MedicalAutoCorrect
 GeneralScripts
 )
-
-git add .
     
