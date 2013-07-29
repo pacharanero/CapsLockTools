@@ -66,13 +66,10 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;
 ;
-;-----------------------------------------------------------------------------------------------------------
-;MARCUS' SCRIPTS
-;-----------------------------------------------------------------------------------------------------------
-;
+
 ^SPACE:: Winset, Alwaysontop, , A ;Keeps current window on top permanently
-#n:: Run Notepad ;Windows Key & 'n' launches Notepad
-#g:: Run C:\Program Files (x86)\Geany\Geany.lnk ;Windows Key & 'g' launches Geany
+#n::Run Notepad ;Windows Key & 'n' launches Notepad
+#p::Pause ; Pressing Win+P once will pause the script. Pressing it again will unpause.
 ;
 ;
 ;
@@ -137,7 +134,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :C1:AE::air entry
 :C1:CIBH::change in bowel habit
 :C1:LLT::lipid lowering therapy
-
+:C1:CCG::Clinical Commissioning Group
+:C1:NRT::Nicotine Replacement Therapy
 ;
 ;
 ;-----------------------------------------------------------------------------------------------------------
@@ -179,6 +177,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::<recep>::GP Reception: no injuries, no allergies, no major medical problems, no current medications.
 ::msg left::short generic message left on voice mail
 ::no msg::unable to leave message - no voice mail
+
+::<knee>::ligaments all intact, no effusion, normal ROM, no deformity, no evidence of significant knee injury
+::<child>::child safety-netting
+
 ;
 ;
 ;-----------------------------------------------------------------------------------------------------------
