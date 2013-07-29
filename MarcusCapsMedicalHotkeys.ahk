@@ -1,19 +1,36 @@
-; 
+;====ABOUT====
+;    This is an AutoHotKey script that implements MedicalAutoCorrect against common medical mis-spellings.
+;    It also auto-expands abbreviations and acronyms. (c) Marcus Baw 2012
+;
+;====LICENSE - (EXCLUDES ***CAPS LOCK TOOLS***, WHICH I DID NOT WRITE)====
+;    This program is free software: you can redistribute it and/or modify
+;    it under the terms of the GNU General Public License as published by
+;    the Free Software Foundation, either version 3 of the License, or
+;    (at your option) any later version.
+;
+;    This program is distributed in the hope that it will be useful,
+;    but WITHOUT ANY WARRANTY; without even the implied warranty of
+;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;    GNU General Public License for more details.
+;
+;    You should have received a copy of the GNU General Public License
+;    along with this program.  If not, see [http://www.gnu.org/licenses/].
+;
+;====CONTACT====
+;    contact me at marcusbaw@gmail.com
+;
+;====INFORMATION====
 ; * This is an AutoHotKey script that implements MedicalAutoCorrect against common medical mis-spellings
-;
 ; * It also auto-expands abbreviations and acronyms.
-;
 ; * It works with any Windows based GP clinical system, eg Systm1 (tested)
-;
 ; * Also works with standard applications eg Word, Notepad etc
-; 
 ; * It is based on the AHK script 'AutoCorrect', I have just added some 'medical' terminology.
 ;   I have removed the rest of the 'AutoCorrect' word replacements, if you require these it is a
 ;   simple matter to run that script simultaneously 
-;
 ; * MedicalAutoCorrect is heavily slanted towards UK General Practice, and, specifically, mine.
 ;
-; * NO WARRANTY IS MADE ABOUT ITS FITNESS FOR PURPOSE, YOU ARE WHOLLY RESPONSIBLE FOR REVIEWING THE CODE
+;====2nd Disclaimer====
+; * NO WARRANTY IS MADE ABOUT THE FITNESS FOR PURPOSE OF THIS SCRIPT, YOU ARE WHOLLY RESPONSIBLE FOR REVIEWING THE CODE
 ;   AND DECIDING IF IT IS SAFE TO USE IN YOUR PRACTICE. CONTRIBUTORS TO THIS SCRIPT CANNOT BE HELD LIABLE
 ;   FOR DOCUMENTATION ERRORS AND/OR CLINICAL ERRORS RESULTING FROM ITS USE.
 ;
