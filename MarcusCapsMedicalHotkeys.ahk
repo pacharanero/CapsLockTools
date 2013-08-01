@@ -179,7 +179,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::no msg::unable to leave message - no voice mail
 
 ::<knee>::ligaments all intact, no effusion, normal ROM, no deformity, no evidence of significant knee injury
-::<child>::child safety-netting
+::<child>::<add child safety-netting here>
+
+::<dentalpain>::Patient reports dental pain and is requesting analgesia which has been prescribed. It remains the patient's responsibility to make an application for the dentist.
+
+::<dentalabcess>::Patient reports dental pain from an abcess and is requesting analgesia and antibiotics, which have been prescribed. Antibiotics are NOT the definitive treatment for a dental abcess and further dental treatment may be required. It remains the patient's responsibility to make an application to see the dentist.
 
 ;
 ;
