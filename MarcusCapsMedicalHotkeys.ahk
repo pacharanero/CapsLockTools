@@ -137,6 +137,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :C1:LLT::lipid lowering therapy
 :C1:CCG::Clinical Commissioning Group
 :C1:NRT::Nicotine Replacement Therapy
+:C1:OSH::outside hospital
 ;
 ;
 ;-----------------------------------------------------------------------------------------------------------
