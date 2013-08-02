@@ -199,6 +199,8 @@ Return
 
 ::<dentalabcess>::Patient reports dental pain from an abcess and is requesting analgesia and antibiotics, which have been prescribed. Antibiotics are NOT the definitive treatment for a dental abcess and further dental treatment may be required. It remains the patient's responsibility to make an application to see the dentist.
 
+::<bld>::Please book this patient in for routine blood clinic - thanks
+
 ::<time>::
 Timestamp()
 Return
